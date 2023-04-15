@@ -505,8 +505,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 2633877908290949068, guid: 600fec0dc76e2474aaa49a0ee1f89f72,
-              type: 3}
+            value: {fileID: 2633877908290949068, guid: 600fec0dc76e2474aaa49a0ee1f89f72, type: 3}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -587,8 +586,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 2633877908290949068, guid: 600fec0dc76e2474aaa49a0ee1f89f72,
-              type: 3}
+            value: {fileID: 2633877908290949068, guid: 600fec0dc76e2474aaa49a0ee1f89f72, type: 3}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -620,7 +618,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -760,8 +758,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        value: {fileID: 2633877908290949068, guid: 600fec0dc76e2474aaa49a0ee1f89f72,
-          type: 3}
+        value: {fileID: 2633877908290949068, guid: 600fec0dc76e2474aaa49a0ee1f89f72, type: 3}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -1194,7 +1191,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Dumb.Game
+  m_text: Cheeper by the 1/2 Dozen
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1221,15 +1218,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 200
-  m_fontSizeBase: 200
+  m_fontSize: 150
+  m_fontSizeBase: 150
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
