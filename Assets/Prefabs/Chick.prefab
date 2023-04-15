@@ -441,12 +441,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.LoadScene
+        - HutongGames.PlayMaker.Actions.ScaleTime
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 20a9b100
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000007000000
+        actionHashCodes: 20a9b1006cdd4504
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -474,7 +476,13 @@ MonoBehaviour:
           networkSync: 0
           enumName: UnityEngine.SceneManagement.LoadSceneMode
           intValue: 0
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmIntParams:
         - useVariable: 0
           name: 
@@ -489,6 +497,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -497,12 +511,12 @@ MonoBehaviour:
         stringParams:
         - 
         - 
-        byteData: 00000000
+        byteData: 0000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0700000012000000100000002a000000110000001700000017000000
+        paramDataType: 0700000012000000100000002a0000001100000017000000170000000f0000001100000001000000
         paramName:
         - sceneReference
         - sceneByName
@@ -511,8 +525,11 @@ MonoBehaviour:
         - success
         - successEvent
         - failureEvent
-        paramDataPos: 00000000000000000000000000000000000000000000000001000000
-        paramByteDataSize: 04000000000000000000000000000000000000000000000000000000
+        - timeScale
+        - adjustFixedDeltaTime
+        - everyFrame
+        paramDataPos: 00000000000000000000000000000000000000000000000001000000000000000100000004000000
+        paramByteDataSize: 04000000000000000000000000000000000000000000000000000000000000000000000001000000
     events:
     - name: Open
       isSystemEvent: 0
