@@ -1225,11 +1225,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a19ad91ea2ea2a47baff19b7485224a, type: 3}
---- !u!1 &1571249163 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3096346692048143957, guid: ea159c47efe5783459598ed7b8950882, type: 3}
-  m_PrefabInstance: {fileID: 3096346691874277740}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1571249164
 Animator:
   serializedVersion: 3
@@ -1237,7 +1232,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571249163}
+  m_GameObject: {fileID: 1986203449}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 2d99907f9ac134cc5b5d11ffff6ccb73, type: 2}
@@ -2164,6 +2159,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1986203449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3096346692048143957, guid: ea159c47efe5783459598ed7b8950882, type: 3}
+  m_PrefabInstance: {fileID: 3096346691874277740}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1630828643147216604
 PrefabInstance:
   m_ObjectHideFlags: 0
