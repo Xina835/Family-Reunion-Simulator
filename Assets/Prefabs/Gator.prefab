@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 8679888652331350824}
   - component: {fileID: 4879446020898632871}
   - component: {fileID: 7618634616781085685}
+  - component: {fileID: -4108769239435947960}
   m_Layer: 0
   m_Name: Gator
   m_TagString: Ground
@@ -1324,3 +1325,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetFSMs:
   - {fileID: 3096346692048143954}
+--- !u!95 &-4108769239435947960
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096346692048143957}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2d99907f9ac134cc5b5d11ffff6ccb73, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
