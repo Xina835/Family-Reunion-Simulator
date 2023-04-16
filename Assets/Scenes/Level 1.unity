@@ -3390,6 +3390,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1371465321}
     - target: {fileID: 1962813002057484009, guid: 9882b12d5b35f7649b62127f65142b2e, type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[1].gameObject.value
+      value: 
+      objectReference: {fileID: 519420028}
+    - target: {fileID: 1962813002057484009, guid: 9882b12d5b35f7649b62127f65142b2e, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
       value: 
       objectReference: {fileID: 1650941451}
