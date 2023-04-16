@@ -3597,6 +3597,14 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3637818531353484391, guid: b56c6fb1fc907fa48a69b1d55ed2b1f0, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmVector3Params.Array.data[2].value.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637818531353484391, guid: b56c6fb1fc907fa48a69b1d55ed2b1f0, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmVector3Params.Array.data[2].value.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637818531353484391, guid: b56c6fb1fc907fa48a69b1d55ed2b1f0, type: 3}
       propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[0].value
       value: 
       objectReference: {fileID: 1371465321}
