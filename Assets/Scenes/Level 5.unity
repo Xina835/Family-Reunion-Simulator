@@ -265,7 +265,7 @@ Transform:
   m_LocalScale: {x: 3.660106, y: 3.660106, z: 3.660106}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &10963107
 Animator:
@@ -602,6 +602,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a19ad91ea2ea2a47baff19b7485224a, type: 3}
+--- !u!1001 &140092556
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2015005624415468813, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_Name
+      value: Happy Chick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015005624415468813, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398409484217451573, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398409484217451573, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.7378116
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398409484217451573, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3121258
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398409484217451573, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398409484217451573, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398409484217451573, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398409484217451573, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398409484217451573, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398409484217451573, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398409484217451573, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398409484217451573, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+--- !u!1 &140092557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2015005624415468813, guid: 4d12b673658f1a748a4e0bbe44e3233e, type: 3}
+  m_PrefabInstance: {fileID: 140092556}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &176139654
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,7 +835,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &203608685
 PrefabInstance:
@@ -1297,7 +1363,7 @@ Transform:
   m_LocalScale: {x: 1.1478, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &459172546
 PrefabInstance:
@@ -1808,7 +1874,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10.352492, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &637987941
 BoxCollider2D:
@@ -2035,7 +2101,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10.352492, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &848991583
 BoxCollider2D:
@@ -2265,7 +2331,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1134832507
 PrefabInstance:
@@ -2680,7 +2746,7 @@ Transform:
   m_LocalScale: {x: 1.1373386, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1595743596
 GameObject:
@@ -2904,7 +2970,7 @@ Transform:
   m_LocalScale: {x: 21.4058, y: 0.92033654, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1663015937
 BoxCollider2D:
@@ -3020,7 +3086,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1934363224
 GameObject:
@@ -3115,7 +3181,7 @@ RectTransform:
   m_Children:
   - {fileID: 1671388261}
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4267,6 +4333,10 @@ PrefabInstance:
       propertyPath: fsm.states.Array.data[2].actionData.fsmOwnerDefaultParams.Array.data[2].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
+    - target: {fileID: 3637818531353484391, guid: b56c6fb1fc907fa48a69b1d55ed2b1f0, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmOwnerDefaultParams.Array.data[3].gameObject.value
+      value: 
+      objectReference: {fileID: 140092557}
     - target: {fileID: 5196313009591347107, guid: b56c6fb1fc907fa48a69b1d55ed2b1f0, type: 3}
       propertyPath: m_Name
       value: Chick
