@@ -489,7 +489,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -500,8 +500,8 @@ MonoBehaviour:
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
+    handleTriggerEnter2D: 1
+    handleTriggerExit2D: 1
     handleTriggerStay2D: 0
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
