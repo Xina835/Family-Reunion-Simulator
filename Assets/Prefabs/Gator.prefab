@@ -14,6 +14,10 @@ GameObject:
   - component: {fileID: 3096346692048143953}
   - component: {fileID: 3096346692048143954}
   - component: {fileID: 8325014533721097921}
+  - component: {fileID: 739059638090655217}
+  - component: {fileID: 8679888652331350824}
+  - component: {fileID: 4879446020898632871}
+  - component: {fileID: 7618634616781085685}
   m_Layer: 0
   m_Name: Gator
   m_TagString: Ground
@@ -426,7 +430,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -462,7 +466,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!61 &3096346692048143953
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -890,7 +894,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -901,11 +905,11 @@ MonoBehaviour:
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
+    handleTriggerEnter2D: 1
+    handleTriggerExit2D: 1
     handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
+    handleCollisionEnter2D: 1
+    handleCollisionExit2D: 1
     handleCollisionStay2D: 0
     handleTriggerEnter: 0
     handleTriggerExit: 0
@@ -926,7 +930,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!61 &8325014533721097921
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -953,3 +957,59 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.98, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &739059638090655217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096346692048143957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -967985445, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 3096346692048143954}
+--- !u!114 &8679888652331350824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096346692048143957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -215411683, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 3096346692048143954}
+--- !u!114 &4879446020898632871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096346692048143957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501658088, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 3096346692048143954}
+--- !u!114 &7618634616781085685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096346692048143957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1879487007, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 3096346692048143954}

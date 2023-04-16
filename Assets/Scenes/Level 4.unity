@@ -2499,6 +2499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gator
       objectReference: {fileID: 0}
+    - target: {fileID: 8325014533721097921, guid: ea159c47efe5783459598ed7b8950882, type: 3}
+      propertyPath: m_Size.y
+      value: 1.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea159c47efe5783459598ed7b8950882, type: 3}
 --- !u!1001 &6447050002469444945
