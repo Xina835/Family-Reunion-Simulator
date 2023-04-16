@@ -194,6 +194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 10963106}
   - component: {fileID: 10963105}
+  - component: {fileID: 10963107}
   m_Layer: 0
   m_Name: sky_base
   m_TagString: Untagged
@@ -240,7 +241,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -5
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 4aa2c2aad61a54535ba00428880cce31, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -266,6 +267,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &10963107
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10963104}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8ef77c2ff7e844c4c96ac9c541230b72, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &28370050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4119,6 +4139,10 @@ PrefabInstance:
     - target: {fileID: 5196313009591347107, guid: b56c6fb1fc907fa48a69b1d55ed2b1f0, type: 3}
       propertyPath: m_Name
       value: Chick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117342673357578135, guid: b56c6fb1fc907fa48a69b1d55ed2b1f0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4425660675561902121, guid: b56c6fb1fc907fa48a69b1d55ed2b1f0, type: 3}
