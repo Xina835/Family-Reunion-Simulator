@@ -2132,6 +2132,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8643753743575109581, guid: 5a1f4b180eea83a428c5c3881d33d6db, type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643753743575109581, guid: 5a1f4b180eea83a428c5c3881d33d6db, type: 3}
+      propertyPath: fsm.handleTriggerExit2D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643753743575109581, guid: 5a1f4b180eea83a428c5c3881d33d6db, type: 3}
+      propertyPath: fsm.handleTriggerEnter2D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643753743575109581, guid: 5a1f4b180eea83a428c5c3881d33d6db, type: 3}
       propertyPath: fsm.states.Array.data[0].actionData.fsmOwnerDefaultParams.Array.data[2].gameObject.value
       value: 
       objectReference: {fileID: 963158562}
