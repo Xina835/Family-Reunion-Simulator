@@ -2263,6 +2263,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4122457084836738614, guid: 95bfd18cab017e84a9f45cb614683de0, type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
+      objectReference: {fileID: 519420028}
     - target: {fileID: 5451312107569677788, guid: 95bfd18cab017e84a9f45cb614683de0, type: 3}
       propertyPath: m_Size.y
       value: 0.3
@@ -2320,6 +2324,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1962813002057484009, guid: 9882b12d5b35f7649b62127f65142b2e, type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
+      objectReference: {fileID: 519420028}
     - target: {fileID: 1962813002057484009, guid: 9882b12d5b35f7649b62127f65142b2e, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
       value: 
@@ -2616,6 +2624,10 @@ PrefabInstance:
       propertyPath: fsm.states.Array.data[2].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 1671388260}
+    - target: {fileID: 3637818531353484391, guid: b56c6fb1fc907fa48a69b1d55ed2b1f0, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmOwnerDefaultParams.Array.data[1].gameObject.value
+      value: 
+      objectReference: {fileID: 519420028}
     - target: {fileID: 5196313009591347107, guid: b56c6fb1fc907fa48a69b1d55ed2b1f0, type: 3}
       propertyPath: m_Name
       value: Chick

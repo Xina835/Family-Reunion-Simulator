@@ -2289,7 +2289,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: UnityEngine.AudioClip
-          value: {fileID: 0}
+          value: {fileID: 8300000, guid: 3622eced8d6284703973c7ab90fb1824, type: 3}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
