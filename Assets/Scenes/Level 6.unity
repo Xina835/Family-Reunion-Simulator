@@ -5451,6 +5451,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7972651814493540688, guid: 6a19ad91ea2ea2a47baff19b7485224a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7972651814493540689, guid: 6a19ad91ea2ea2a47baff19b7485224a, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -7594,7 +7598,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1962813002057484009, guid: 9882b12d5b35f7649b62127f65142b2e, type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmGameObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 6252070432236843413}
+    - target: {fileID: 1962813002057484009, guid: 9882b12d5b35f7649b62127f65142b2e, type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
+      value: 
+      objectReference: {fileID: 6252070432236843413}
+    - target: {fileID: 1962813002057484009, guid: 9882b12d5b35f7649b62127f65142b2e, type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[1].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
     - target: {fileID: 1962813002057484009, guid: 9882b12d5b35f7649b62127f65142b2e, type: 3}
